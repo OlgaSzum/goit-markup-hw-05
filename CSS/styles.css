@@ -50,7 +50,7 @@ h3 {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.04px;
+  letter-spacing: 0.04em;
   color: var(--dark);
 }
 
@@ -65,11 +65,6 @@ h3 {
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
-}
-
-.hero_section {
-  padding-top: 188px;
-  padding-bottom: 188px;
 }
 
 .list {
@@ -214,6 +209,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 48px;
 }
 
@@ -224,9 +220,10 @@ h3 {
   font-style: normal;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 1.12px;
-
+  letter-spacing: 0.02em;
   max-width: 496px;
+
+  margin-top: 68px;
 }
 
 .hero_button {
@@ -245,6 +242,8 @@ h3 {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white-background);
+
+  margin-bottom: 68px;
 }
 
 .hero_button:is(:hover, :focus) {
@@ -385,6 +384,15 @@ h3 {
   padding-bottom: 100px;
   gap: 120px;
   align-items: flex-start;
+}
+
+.footer_motto_div {
+  display: flex;
+  flex-direction: column;
+  gap: 17.5px;
+  width: 264px;
+  height: 72px;
+  margin-right: 120px;
 }
 
 .footer_text {
