@@ -102,9 +102,10 @@ h3 {
   color: var(--primary-brand);
   font-family: "Raleway";
   text-transform: uppercase;
+  font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 1.16;
   letter-spacing: 0.03em;
 }
 
